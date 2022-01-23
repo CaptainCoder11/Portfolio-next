@@ -28,7 +28,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Flip } from 'react-reveal';
 import cookieCutter from 'cookie-cutter'
-import { ThemeContext } from './components/ThemeContext';
+import { ThemeContext } from '../ThemeContext';
 import { useContext } from 'react';
 import { useState , useRef } from 'react';
 function Portfolio() {
