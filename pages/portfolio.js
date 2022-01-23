@@ -107,6 +107,19 @@ function Portfolio() {
       "w-screen",
        "h-screen")}>
        <Head>
+       <meta
+      name="description"
+      content="Ruchit Patel Full Stack Developer , Android Developer , CI/CD Devops"
+    />
+    <title>Ruchit Patel</title>
+    <meta property='og:title' prefix="og:http://ogp.me/ns#" content='Ruchit Patel'/>
+    <meta name="image" prefix="og:http://ogp.me/ns#" property="og:image" content="http://drive.google.com/file/d/1R0MTajn5aqiC2mic21eP6kcmKSmiqpFz/view?usp=sharing"/>
+    <meta property="og:image:secure_url" content="https://drive.google.com/file/d/1R0MTajn5aqiC2mic21eP6kcmKSmiqpFz/view?usp=sharing" /> 
+    <meta property="og:image:type" content="image/png" /> 
+    <meta property="og:image:width" content="400" /> 
+    <meta property="og:image:height" content="300" />
+    <meta property='og:description' prefix="og:http://ogp.me/ns#" content='My Portfolio'/>
+
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
       </Head>
         <HeaderComponent className="fixed" item={item} checked={theme} onChange={ handleChange}></HeaderComponent>
