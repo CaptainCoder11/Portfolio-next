@@ -19,7 +19,7 @@ const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg)
 function MaskComponent(){
     const [props, set] = useSpring(() => ({ xys: [0, 0, 1] , config: config.default}))
     return(
-        <div className="ml-24 mt-24">
+        <div className="ml-24 mt-24 sm:ml-0">
         <ImgContainer 
         onMouseMove={({clientX: x, clientY: y}) => (set({xys: calc(x, y)}))}
         onMouseLeave={() => set({xys:[0,0,1]})}

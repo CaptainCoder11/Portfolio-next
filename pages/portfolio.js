@@ -187,18 +187,18 @@ function Portfolio() {
        </div>
 
       <Flip id="services" top>
-      <div className="grid grid-rows-2 grid-cols-4 gap-5 p-2 md:p-4  pl-28 sm:pl-16 pr-16 md:pl-40 md:pr-20 w-screen bg-gray-500" id="services">
+      <div className="grid grid-rows-2 grid-cols-4 sm:grid-cols-3 gap-5 p-2 md:p-4  pl-28 sm:pl-16 pr-16 md:pl-40 md:pr-20 w-screen bg-gray-500" id="services">
       <svg className="w-20 h-16 md:w-24 md:h-24 p-2 md:p-4 sm:p-3 sm:py-1" viewBox="0 0 148 90" version="1.1"><path d="M34.992 23.495h27.855v2.219H37.546v16.699h23.792v2.219H37.546v18.334h25.591v2.219H34.992v-41.69zm30.35 0h2.96l13.115 18.334 13.405-18.334L113.055.207 83.1 43.756l15.436 21.429H95.46L81.417 45.683 67.316 65.185h-3.018L79.85 43.756 65.343 23.495zm34.297 2.219v-2.219h31.742v2.219h-14.623v39.47h-2.554v-39.47H99.64zM.145 23.495h3.192l44.011 66.003L29.16 65.185 2.814 26.648l-.116 38.537H.145v-41.69zm130.98 38.801c-.523 0-.914-.405-.914-.928 0-.524.391-.929.913-.929.528 0 .913.405.913.929 0 .523-.385.928-.913.928zm2.508-2.443H135c.019.742.56 1.24 1.354 1.24.888 0 1.391-.535 1.391-1.539v-6.356h1.391v6.362c0 1.808-1.043 2.849-2.77 2.849-1.62 0-2.732-1.01-2.732-2.556zm7.322-.08h1.379c.118.853.95 1.395 2.149 1.395 1.117 0 1.937-.58 1.937-1.377 0-.685-.521-1.097-1.708-1.377l-1.155-.28c-1.62-.38-2.36-1.166-2.36-2.487 0-1.602 1.304-2.668 3.26-2.668 1.82 0 3.15 1.066 3.23 2.58h-1.354c-.13-.828-.85-1.346-1.894-1.346-1.1 0-1.832.53-1.832 1.34 0 .642.472 1.01 1.64 1.284l.987.243c1.838.43 2.596 1.178 2.596 2.53 0 1.72-1.33 2.799-3.453 2.799-1.987 0-3.323-1.029-3.422-2.637z" fill="black"></path></svg>
-      <div className="w-20 h-16 md:w-24 md:h-24 mt-10"> <Image src={tailwind} layout="responsive" alt=""></Image> </div>
+      <div className="w-20 h-16 md:w-24 md:h-24 mt-7"> <Image src={tailwind} layout="responsive" alt=""></Image> </div>
       <svg className="w-20 h-16 md:w-24 md:h-24 p-2 md:p-4 sm:p-4" viewBox="0 0 118 94" ><path d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
       <div className="w-20 h-16 md:w-24 md:h-24  p-4 md:p-5 sm:px-2"><Image layout="responsive" src={node} alt=""></Image></div>
-      <div className="w-20 h-16 md:w-24 md:h-24  p-2 md:p-2 sm:p-1 mt-5"><Image layout="responsive" src={angular} alt="AngularJS"></Image></div>
-      <div className="w-28 h-16 md:w-32 md:h-24  py-4 md:py-5"><Image src={fastapi} alt="Fast Api"></Image></div>
-      <div className="w-20 h-16 md:w-24 md:h-24 mt-5   " ><Image src={spring} layout="responsive" alt=""></Image></div>
-      <div className="w-20 h-16 md:w-24 md:h-24 p-4 md:p-5 sm:p-2"><Image layout="responsive" src={docker} alt="Docker"></Image></div>
+      <div className="w-20 h-16 md:w-24 md:h-24  p-2 md:p-2 sm:p-1 mt-10"><Image layout="responsive" src={angular} alt="AngularJS"></Image></div>
+      <div className="w-28 h-16 md:w-32 md:h-24  py-4 md:py-5 mt-4"><Image src={fastapi} alt="Fast Api"></Image></div>
+      <div className="w-20 h-16 md:w-24 md:h-24 mt-7" ><Image src={spring} layout="responsive" alt=""></Image></div>
+      <div className="w-20 h-16 md:w-24 md:h-24 p-4 md:p-5 sm:p-2 "><Image layout="responsive" src={docker} alt="Docker"></Image></div>
       <div className="w-20 h-16 md:w-24 md:h-24 p-4 md:p-5 sm:p-4"><Image layout="responsive" src={kubernetes} alt=""></Image></div>
-      <div className="w-20 h-16 md:w-24 md:h-24 p-4 md:p-5 sm:p-4"><Image layout="responsive" src={aws} alt=""></Image></div>
-      <div className="w-20 h-16 md:w-24 md:h-24 p-4 md:p-5 sm:p-4"><Image layout="responsive" src={graphql} alt=""></Image></div>
+      <div className="w-20 h-16 md:w-24 md:h-24 p-4 md:p-5 sm:p-4 mt-4"><Image layout="responsive" src={aws} alt=""></Image></div>
+      <div className="w-20 h-16 md:w-24 md:h-24 p-4 md:p-5 sm:p-4 "><Image layout="responsive" src={graphql} alt=""></Image></div>
 
       </div>
       </Flip>
