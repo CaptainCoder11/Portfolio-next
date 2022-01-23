@@ -103,7 +103,7 @@ function Portfolio() {
   
 
   return (
-      <div onScroll={onScroll} style={{scrollBehavior:'smooth'}} id="app" className={classnames(`overflow-y-scroll overflow-x-hidden flex-col  dark:bg-gray-800 bg-white`,
+      <div prefix="og:http://ogp.me/ns#" onScroll={onScroll} style={{scrollBehavior:'smooth'}} id="app" className={classnames(`overflow-y-scroll overflow-x-hidden flex-col  dark:bg-gray-800 bg-white`,
       "w-screen",
        "h-screen")}>
        <Head>
