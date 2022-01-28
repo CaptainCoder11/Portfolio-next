@@ -118,7 +118,7 @@ function Portfolio() {
     <meta property="og:description" content="Full Stack Developer / Software Generalist" />
     <meta property="og:url" content="https://portfolio-next-5j39r98bp-captaincoder11.vercel.app/portfolio" />
     <meta property="og:site_name" content="Ruchit Patel" />
-    <meta property="og:image" content="https://drive.google.com/file/d/1R0MTajn5aqiC2mic21eP6kcmKSmiqpFz/view?usp=sharing" />
+    <meta property="og:image" content="https://i.ibb.co/xMdFsNV/Screen-Shot-2022-01-23-at-2-26-08-PM.png" />
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
     <meta property="og:image:alt" content="" />
