@@ -79,7 +79,7 @@ function PersonalInfo(props){
        tracking-widest
         shadow-2xl shadow-primary
        font-extralight">PORTFOLIO</button>
-       <a href="https://drive.google.com/uc?export=download&id=18O_a6TF5khaftN6fJaiR1edFwgfAc-8z">
+       <a href="https://docs.google.com/document/d/1HZZsuJfw8jzJj6vzJxX13iiNZsrqoovQdVYFJOAqKhE/edit?usp=sharing">
       <button className="w-40 md:w-48
       h-10 md:h-11
       ml-7
